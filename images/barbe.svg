@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2332;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#grad3)"/>
+  
+  <!-- Tête -->
+  <circle cx="200" cy="100" r="45" fill="#d4a574"/>
+  
+  <!-- Cheveux -->
+  <path d="M 155 70 Q 155 30 200 25 Q 245 30 245 70" fill="#3d2817"/>
+  
+  <!-- Barbe bien taillée style réaliste -->
+  <ellipse cx="200" cy="140" rx="28" ry="35" fill="#2d1810"/>
+  <path d="M 175 145 Q 165 155 170 165 Q 180 170 200 172 Q 220 170 230 165 Q 235 155 225 145" fill="#4a3020" opacity="0.8"/>
+  
+  <!-- Moustache définie -->
+  <path d="M 185 120 Q 200 115 215 120" stroke="#2d1810" stroke-width="3" fill="none"/>
+  
+  <!-- Contours de barbe nets -->
+  <path d="M 172 145 L 170 165" stroke="#e6b800" stroke-width="2" opacity="0.6"/>
+  <path d="M 228 145 L 230 165" stroke="#e6b800" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Rasoir professionnel -->
+  <g transform="translate(280, 80)">
+    <rect x="0" y="0" width="30" height="4" fill="#c0c0c0" rx="2"/>
+    <rect x="8" y="-3" width="14" height="10" fill="#808080"/>
+    <path d="M 22 -2 L 26 6" stroke="#e6b800" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Texte -->
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e6b800" text-anchor="middle">TAILLE DE BARBE</text>
+</svg>
